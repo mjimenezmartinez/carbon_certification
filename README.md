@@ -6,4 +6,5 @@ The main aim of the model is to explore whether it is worth for farmers to parti
 
 
 
-![Conceptual model](https://github.com/mjimenezmartinez/carbon_certification/assets/120377999/9e6d2dad-4fb2-4419-bace-b0dfaaa59928)
+
+![Conceptual model](https://github.com/mjimenezmartinez/carbon_certification/assets/120377999/1ba7db52-5239-49d4-9c71-2b178490e404)
