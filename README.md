@@ -1,4 +1,4 @@
-# carbon_certification
+# Marketing of carbon certificates in agroforestry interventions
 Is it worth, for German farmers introducing an agroforestry system, to sell carbon certificates as an additional source of income?
 
 Typical decision analysis binary problem, consisting on planting rows of walnut trees in winter wheat-barley-rapeseed rotations. Walnut trees are managed with the dual-purpose of harvesting nuts and high-value timber. The intervention includes the integration of the farm into a carbon certification project.
