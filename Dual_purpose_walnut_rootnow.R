@@ -1,7 +1,7 @@
 library(decisionSupport)
 library(ggplot2)
 
-input_file <- read.csv(dualpurpose_walnut_rotation_40trees_rootnow.csv)
+input_file_name <- "dualpurpose_walnut_rotation_40trees_rootnow.csv"
 
 establishment_funded <- FALSE # choose TRUE or FALSE according to the (public) funding context of the intervention
 
@@ -339,7 +339,7 @@ AF_benefit <- function(x,varnames)
 
 #Run the Monte Carlo analysis of the model
 mcSimulation_results <- decisionSupport::mcSimulation(
-  estimate = decisionSupport::estimate_read_csv(input_file),
+  estimate = decisionSupport::estimate_read_csv(input_file_name),
   model_function = AF_benefit,
   numberOfModelRuns = 1e4, #run 10,000 times
   functionSyntax = "plainNames")
@@ -540,7 +540,7 @@ ggsave(
 
 ##Conduct an analysis of the Expected Value of Perfect Information (EVPI)
 #Run again the Monte Carlo analysis, this time returning output files
-decisionSupport(inputFilePath = input_file,
+decisionSupport(inputFilePath = read.csv(input_file_name),
                 outputPath = paste0(folder, "/", "MCResults", "/", "dual_purpose_walnut_rotation", sep=""),
                 write_table = TRUE,
                 welfareFunction = AF_benefit,
