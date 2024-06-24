@@ -3,6 +3,7 @@ library(ggplot2)
 
 input_file_name <- "dualpurpose_walnut_rotation_40trees_rootnow.csv"
 
+
 establishment_funded <- FALSE # choose TRUE or FALSE according to the (public) funding context of the intervention
 
 # choose TRUE or FALSE according to the funding context of the intervention
