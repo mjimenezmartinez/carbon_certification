@@ -189,7 +189,7 @@ AF_benefit <- function(x,varnames)
   
   # calculate annual change in Above Ground Carbon contained in Timber (assuming 0.48 carbon content in biomass)
   AGBcarbon <- growing_timber_volume  * wood_density * carbon_density
-  AGBcarbon_change[1] <- 0
+  AGBcarbon_change[1] <- AGBcarbon[1]
   AGBcarbon_change[2:n_years] <- diff(AGBcarbon)
   #calculate annual change in carbon contained in roots
   BGBcarbon <- AGBcarbon * root_to_shoot_ratio
